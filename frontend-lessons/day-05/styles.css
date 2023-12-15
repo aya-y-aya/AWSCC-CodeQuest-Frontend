@@ -1,0 +1,13 @@
+/* CSS Box Model Example */
+/* Let's style a simple box element */
+
+/* 1. Define the box with some basic styles */
+.box {
+    width: 200px;           /* Width of the content area */
+    height: 100px;          /* Height of the content area */
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;          /* Padding inside the content area */
+    border: 2px solid #2980b9; /* Border around the content area */
+    margin: 20px;           /* Margin outside the border */
+}
