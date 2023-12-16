@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #3498db;
+    background-color: #ffffff;
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid #27ae60;
+    /* A. Apply a solid background color */
+    background-color: #3498db; 
+
+    /* B. Or apply a background gradient */
+    background: linear-gradient(45deg, #3498db, #e74c3c); 
+
+    /* C. Or apply a background image */
+    background-image: url('your-image.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
+    color: #ffffff;
+}
